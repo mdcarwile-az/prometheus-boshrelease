@@ -2,10 +2,10 @@
   path: /instance_groups/name=alertmanager/networks/name=default/static_ips?
   value: ((ip_alertmanager))
 
-  - type: replace
+- type: replace
   path: /instance_groups/name=grafana/networks/name=default/static_ips?
   value: ((ip_grafana))
 
-  - type: replace
+- type: replace
   path: /instance_groups/name=prometheus2/networks/name=default/static_ips?
   value: ((ip_prometheus))
